@@ -1,6 +1,6 @@
 # We can also use a docker container an run our stop in himself.
-name: 001Easy
-run-name: 001easy_runname
+name: 002Easy
+run-name: 002easy_runname
 on: workflow_dispatch
 jobs:
   first-job:
