@@ -3,14 +3,17 @@ name: 003Easy
 run-name: 003easy_runname
 on: workflow_dispatch
 jobs:
-  first-job:
+  build-node-job:
+    name: Build and run Node Project
     runs-on: ubuntu-latest
     container: node:16
     steps:
       - run: node --version
+        name: Check version
       - run: npm --version
       - uses: actions/checkout@v3
+        name: Checkout Version
       - run: npm install
       - run: node app.js
-      
+
     
