@@ -2,8 +2,8 @@ package macloy.eesev.minwar;
 
 
 import javax.enterprise.context.RequestScoped;
-import javax.inject.Inject;
-import javax.servlet.http.HttpServletRequest;
+//import javax.inject.Inject;
+//import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
@@ -11,8 +11,8 @@ import javax.ws.rs.Path;
 @RequestScoped
 public class MinWar {
    
-    @Inject
-    private HttpServletRequest request;
+    //@Inject
+    //private HttpServletRequest request;
     
     /**
      * In a standdard local Servlet-Container call it with:
