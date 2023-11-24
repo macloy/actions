@@ -3,7 +3,7 @@ run-name: 001easy_runname
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: windows-latests
+    runs-on: ubuntu-latest
     steps:
       - run: node --version
       - run: npm --version
