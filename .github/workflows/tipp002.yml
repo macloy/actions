@@ -1,0 +1,12 @@
+# We can also use a docker container an run our stop in himself.
+name: 001Easy
+run-name: 001easy_runname
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    container: node:17.6.0
+    steps:
+      - run: node --version
+      - run: npm --version
+    
